@@ -10,8 +10,8 @@ import cloudinary.api
 #config the api of cloudinary ,I think making it a global is  a good practice
 cloudinary.config( 
 cloud_name='dnadeynjn',
-api_key='672846769373576',
-api_secret='pDEFOyLSyWz7R3jd9AVn7Du_bXA'
+api_key="sorry-cann't give you",
+api_secret='generate-yours'
 )
 
 
@@ -45,7 +45,7 @@ def generate_quote():
 #Pexels Api gives the image url , then get the image using the url
 def generate_image():
     randomPageNo =randint(1,500) #there is no random ,this api is like a static website , So i am creating the randomness
-    PexelsApik= "Xc7Z5NZ0YheYzsZTpD0CFfvmciVMCl229064znG2V4Uktq6jREg9TJnS"
+    PexelsApik= "generate-yours"
     url=f'https://api.pexels.com/v1/search?query=nature&page={randomPageNo}&per_page=1&w=800'
     header={   'Authorization':PexelsApik  }
     reponse=requests.get(url,headers=header)

@@ -2,7 +2,7 @@ import requests
 import Quote_pic
 #My instance or server
 base_url = 'https://mastodon.social'
-access_token = 'YwhCMBSOxHD5J0KBqDCbosGH93HipWaPYEUAV1e0Nv8'
+access_token = 'sorry-cannot-give-generate-yours'
 link="https://mastodon.social/@velbotmasto"
 #function to upload image in mastodon
 def upload_media(media_path):
